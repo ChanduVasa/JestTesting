@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App Logic with Mocked API getAllUserNames() should handle an empty response 1`] = `[]`;
+
+exports[`App Logic with Mocked API getAllUserNames() should return a list of user names 1`] = `
+[
+  "John Doe",
+  "Jane Smith",
+]
+`;
+
+exports[`App Logic with Mocked API getUserDetails() should return user details for a valid user ID 1`] = `
+{
+  "email": "john.doe@example.com",
+  "name": "John Doe",
+}
+`;
+
+exports[`Testing Complex Asynchronous Functions getFilteredUsersByName() should filter users whose names contain the substring 1`] = `
+[
+  {
+    "id": 1,
+    "name": "John Doe",
+  },
+  {
+    "id": 3,
+    "name": "Doe Ray",
+  },
+]
+`;
+
+exports[`Testing Complex Asynchronous Functions getFilteredUsersByName() should return an empty array if no users match 1`] = `[]`;
